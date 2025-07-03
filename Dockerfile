@@ -38,3 +38,6 @@ RUN echo "alias ll='ls -al'" >> /root/.bashrc && \
     echo "export PYTHONPATH=/app" >> /root/.bashrc
 
 CMD ["tail", "-f", "/dev/null"]
+
+# docker build -t mspr-601-ml-dev .
+# docker run --name mspr_601_ml_dev -v ./:/app -e PYTHONPATH=/app \-d mspr-601-ml-dev
