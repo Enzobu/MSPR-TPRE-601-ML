@@ -12,20 +12,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install --no-cache-dir \
-    matplotlib  \
-    requests \
-    psycopg2-binary \
-    python-dotenv \
-    country_converter \
-    kagglehub \
-    pylint \
-    psycopg2 \
-    pandas \
-    prophet \
-    pystan \
-    plotly \
-    joblib
+COPY requirements.txt .
+
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 WORKDIR /app
 
@@ -39,5 +28,5 @@ RUN echo "alias ll='ls -al'" >> /root/.bashrc && \
 
 CMD ["tail", "-f", "/dev/null"]
 
-# docker build -t mspr-601-ml-dev .
-# docker run --name mspr_601_ml_dev -v ./:/app -e PYTHONPATH=/app \-d mspr-601-ml-dev
+# docker build -t dev-mspr-601-ml .
+# docker run --name dev_mspr_601_ml -v ./:/app -e PYTHONPATH=/app \-d dev-mspr-601-ml
