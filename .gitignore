@@ -1,3 +1,5 @@
 plots/
 predictions/
 models/
+__pycache__/
+*.pyc

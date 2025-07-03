@@ -1,0 +1,15 @@
+matplotlib
+requests
+psycopg2-binary
+python-dotenv
+country_converter
+kagglehub
+pylint
+psycopg2
+pandas
+prophet
+pystan
+plotly
+joblib
+scikit-learn
+numpy
