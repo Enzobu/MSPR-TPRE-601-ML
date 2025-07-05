@@ -8,11 +8,8 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [Unreleased]
 
 ### À venir
-- Interface web pour visualisation des prédictions
-- API REST pour accès aux données
 - Parallélisation du traitement par pays
 - Système de notifications par email
-- Support multi-langues
 
 ## [1.0.0] - 2024-12-19
 
