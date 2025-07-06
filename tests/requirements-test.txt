@@ -1,0 +1,53 @@
+# Dépendances pour les tests MSPR-TPRE-601-ML
+
+# Framework de test principal
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-html>=3.1.0
+pytest-xdist>=3.0.0
+
+# Outils de qualité de code
+pylint>=2.17.0
+mypy>=1.0.0
+black>=23.0.0
+flake8>=6.0.0
+bandit>=1.7.0
+
+# Outils de monitoring et performance
+psutil>=5.9.0
+memory-profiler>=0.60.0
+
+# Outils de mock et simulation
+pytest-mock>=3.10.0
+responses>=0.23.0
+
+# Outils de génération de rapports
+pytest-json-report>=1.5.0
+pytest-benchmark>=4.0.0
+
+# Outils de test de base de données
+pytest-postgresql>=4.1.0
+pytest-mysql>=4.1.0
+
+# Outils de test d'intégration
+pytest-docker>=2.0.0
+pytest-selenium>=4.0.0
+
+# Outils de test de performance
+locust>=2.15.0
+
+# Outils de validation de données
+jsonschema>=4.17.0
+cerberus>=1.3.0
+
+# Outils de test de sécurité
+safety>=2.3.0
+
+# Outils de documentation de tests
+pytest-docstring>=0.1.0
+
+# Outils de test de compatibilité
+pytest-pythonpath>=0.7.0
+
+# Outils de test de configuration
+pytest-env>=1.1.0 
