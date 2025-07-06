@@ -355,7 +355,7 @@ pylint main.py                # Qualité du code
 
 # Nettoyage
 docker system prune -a         # Nettoyage Docker
-rm -rf models/* predictions/* plots/*  # Nettoyage des sorties
+rm -rf models/* predictions/* plots/*  # Nettoyage des sortiesww
 ```
 
 ### Contact et ressources
